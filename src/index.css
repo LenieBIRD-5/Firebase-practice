@@ -26,7 +26,7 @@ nav {
   height: 80px;
   display: flex;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
-  background-color: white;
+  background-color: #ffffff;
   position: relative;
 }
 
@@ -106,14 +106,26 @@ button:active {
   margin: 0 auto;
 }
 
-.nav__btn {
+.nav__btn--login {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  padding: 8px;
+  padding: 12px;
   color: #4c4064;
   border: none;
+  border-radius: 5px;
   background-color: none;
+}
+
+.nav__btn--register {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #7342d6;
 }
 
 .nav__list {

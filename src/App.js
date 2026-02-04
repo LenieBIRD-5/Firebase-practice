@@ -16,9 +16,9 @@ function App() {
   React.useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       setLoading(false);
-      console.log(user.email[0].toUpperCase);
+      console.log(user);
       if (user) {
-        setUser(user)
+        setUser(user);
       }
     })
   }, []);
@@ -59,18 +59,18 @@ function App() {
                 </a>
                 <ul className="nav__links">
           <li className="nav__list">
-            <button onClick={login} className="nav__btn">
+            <button onClick={login} className="nav__btn--login">
             Login
             </button>
           </li>
           <li className="nav__list">
-            <button onClick={register} className="nav__btn">
+            <button onClick={register} className="nav__btn--register">
             Register
             </button>
           </li>
           <li className="nav__list">
             <button onClick={logout} className="btn">
-              E
+              <span>E</span>
             </button>
             {loading ? 'loading...' : user.email}
           </li>
