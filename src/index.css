@@ -47,7 +47,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 ul {
   display: flex;
 }
@@ -73,15 +72,11 @@ button {
   cursor: pointer;
 }
 
-button:active {
-  transform: translateY(1px);
-}
-
 .btn {
   background-color: #7342d6;
   color: white;
   padding: 12px 24px;
-  font-size: 20px;
+  font-size: 30px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -106,9 +101,9 @@ button:active {
   margin: 0 auto;
 }
 
-.nav__btn--login {
+.nav__btn--gray {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   padding: 12px;
   color: #4c4064;
@@ -117,9 +112,9 @@ button:active {
   background-color: none;
 }
 
-.nav__btn--register {
+.nav__btn--purple {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   padding: 12px;
   color: #fff;
@@ -134,8 +129,4 @@ button:active {
   align-items: center;
   justify-content: center;
 }
-
-
-
-
 
